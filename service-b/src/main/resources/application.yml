@@ -1,0 +1,12 @@
+spring.application.name: demo
+
+kafka-mvc:
+  bootstrap-servers: localhost:9092
+  consumer:
+    name: "service-b-consumer"
+    threads:
+      max: 50
+      start: 10
+  producer:
+    replyTopic: "service.b.response"
+    timeout: 10000
