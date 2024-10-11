@@ -1,7 +1,7 @@
 spring.application.name: demo
 
 kafka-mvc:
-  bootstrap-servers: localhost:9092
+  bootstrap-servers: 192.168.1.19:9092
   consumer:
     name: "service-b-consumer"
     threads:
