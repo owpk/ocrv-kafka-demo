@@ -1,5 +1,5 @@
 spring.application.name: demo
-server.port: 8001
+server.port: 8002
 kafka-mvc:
   bootstrap-servers: 192.168.1.19:9092
   consumer:
@@ -10,3 +10,4 @@ kafka-mvc:
   producer:
     replyTopic: "service.a.response"
     timeout: 10000
+
